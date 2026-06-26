@@ -14,7 +14,7 @@ jobs:
     steps:
     - uses: actions/checkout@v4
     - name: Run Build
-      working-directory: ./C++
+      working-directory: ./CPP
       run: make
       
     
